@@ -96,7 +96,7 @@ body{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   
-  /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .contato {
       padding: 20px;
     }
@@ -109,4 +109,4 @@ body{
     .btn-enviar {
       font-size: 14px;
     }
-  } */
+  }

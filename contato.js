@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
   
-      // Simula o envio do formulário
+      // Simulador de form
       alert('Mensagem enviada com sucesso!');
       form.reset();
     });

@@ -359,3 +359,164 @@ header nav ul li a{
     margin: 0 5px;
     transition: background-color 0.3s ease;
   }
+
+/* Seu CSS original permanece acima */
+
+/* RESPONSIVIDADE */
+@media (max-width: 1200px) {
+    header {
+      padding: 20px 40px;
+    }
+  
+    .conteudo {
+      padding-right: 40px;
+    }
+  
+    .produto-name {
+      font-size: 4rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    header {
+      padding: 15px 30px;
+    }
+  
+    header nav ul {
+      gap: 20px;
+    }
+  
+    .container {
+      flex-direction: column;
+      padding: 40px 20px;
+    }
+  
+    .list {
+      flex-direction: column;
+    }
+  
+    .item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .produtos-img,
+    .conteudo {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .produtos-img img {
+      max-width: 70%;
+      max-height: 300px;
+      margin-bottom: 20px;
+    }
+  
+    .produto-name {
+      font-size: 3rem;
+    }
+  
+    .descricao {
+      font-size: 1.1rem;
+    }
+  
+    .btn {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header nav ul {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+  
+    .logo {
+      font-size: 1.8rem;
+    }
+  
+    .container {
+      padding: 30px 15px;
+    }
+  
+    .produto-name {
+      font-size: 2.5rem;
+    }
+  
+    .produto-tag {
+      font-size: 1.2rem;
+    }
+  
+    .descricao {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+    }
+  
+    .arrows {
+      padding: 20px;
+    }
+  
+    .arrow-btn {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .numero {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container::before {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .produto-name {
+      font-size: 2rem;
+    }
+  
+    .produto-tag {
+      font-size: 1rem;
+    }
+  
+    .descricao {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      padding: 10px 20px;
+      font-size: 0.8rem;
+    }
+  
+    .produtos-img img {
+      max-width: 90%;
+      max-height: 250px;
+    }
+  
+    .arrow-btn {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .ponto {
+      width: 8px;
+      height: 8px;
+    }
+  
+    .numero {
+      font-size: 1.2rem;
+    }
+  }
+  
+  
